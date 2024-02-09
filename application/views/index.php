@@ -11,7 +11,7 @@
        <h1>Add a Bookmark</h1>
        <form action="/bookmarks/add" method="post">
             <label for="name">Name: </label>
-            <input type="text" name="name" placeholder="HackerHero" required>
+            <input type="text" name="name" placeholder="Hacker Hero" required>
             <label for="url">URL: </label>
             <input type="text" name="url" placeholder="https://www.hackerhero.com/" required>
             <label for="folder">Folder: </label>
