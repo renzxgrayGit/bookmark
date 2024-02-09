@@ -1,0 +1,46 @@
+body {
+    background-color: #121212; /* Dark background for night mode */
+    color: #ddd; /* Light text color for night mode */
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #424242;
+    padding: 8px;
+    text-align: left;
+    color: #ddd; /* Light text color for night mode */
+}
+
+tr:nth-child(even) {
+    background-color: #333333; /* Darker background for even rows */
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333333; /* Dark background for form inputs */
+    color: #ddd; /* Light text color for form inputs */
+}
+
+input[type="submit"] {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0f7ae5;
+}
